@@ -1,7 +1,7 @@
 /** @format */
 import { useRef } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { removeItem, updateQuantity } from "./cartSlice";
+import { removeItem, updateQuantity } from "./CartSlice";
 import "./CartItem.css";
 
 const CartItem = ({ onContinueShopping }) => {

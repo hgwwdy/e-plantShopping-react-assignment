@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import "./ProductList.css";
 import CartItem from "./CartItem";
-import { addItem, quantityItemsCart } from "./cartSlice";
+import { addItem, quantityItemsCart } from "./CartSlice";
 import { useDispatch, useSelector } from "react-redux";
 
 function ProductList() {
